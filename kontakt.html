@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SweetSuccess UF</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Poppins:wght@100;200;300;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8d5cf2805.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a class="toplogo" href="index.html">SweetSuccess UF</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="produkter.html">Produkter</a></li>
+                    <li><a href="om.html">Om oss</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+        <div class="rubric">
+            <h1>Kontakt</h1>
+        </div>
+    
+    </section>
+
+<!----- Contact Us ----->
+    <section class="contact-form">
+        <h1>Beställ kataloger</h1>
+        <form action="https://formspree.io/f/mvojyvbo" method="POST" id="form">
+            <label for="kontaktperson">Kontaktperson</label>
+            <input type="text" placeholder="Förnamn Efternamn" id="kontaktperson" required>
+            <label for="klass">Skola/Förening & Klass/Lag</label>
+            <input type="text" placeholder="Enskedeskolan 8c / Boo FF P04" id="klass" required>
+            <label for="address">Address</label>
+            <input type="text" placeholder="Postaddress" id="address" required>
+            <div>
+                <div>
+                    <label for="postnummer">Postnummer</label>
+                    <input type="text" placeholder="123 45" id="postnummer" required>
+                </div>
+                <div>
+                    <label for="ort">Ort</label>
+                    <input type="text" placeholder="Ort" id="ort" required>
+                </div>
+            </div>
+            <label for="mobil">Mobil</label>
+            <input type="tel" placeholder="070-786 60 84" id="mobil" required>
+            <label for="email">E-post</label>
+            <input type="email" placeholder="@" id="email" required>
+            <div>
+                <div>
+                    <label for="antal">Antal säljkataloger</label>
+                    <input type="number" min="1" id="antal" required>
+                </div>
+                <div class="submit-div">
+                    <label></label>
+                    <input class="hero-btn invert" type="submit" value="Beställ">
+                </div>
+            </div>
+        </form>
+    </section>
+    <section class="contact-info">
+        <h1>Kontakta Oss</h1>
+        <div class="info-box">
+            <div>
+                <p><span>Kontakt:</span> <br> Mail: info@sweetsuccessuf.se <br> Telefon: 076-565 98 07</p>
+                <p><span>Telefon tider:</span><br> Mån-Fre: 08.00-16.00 <br> Lör-Sön: 11.00-15.00</p>
+            </div>
+            <div class="address-book">
+                <i class="fa-regular fa-address-book"></i>
+            </div>
+        </div>
+    </section>
+
+<!----- Footer ----->
+
+<section class="footer">
+    <a class="bottomlogo" href="index.html">SweetSuccess UF</a>
+    <!-- skriv här -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Pallentesque aliquet turpis nulla, eleifend faucibus 
+    est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p class="copyright">Copyright Ⓒ 2023</p>
+</section>
+
+
+
+
+
+
+<!----- JavaScript for Toggle Menu ----->
+<script src="main.js"></script>
+
+</body>
+</html>

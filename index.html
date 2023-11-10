@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>SweetSuccess UF</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8d5cf2805.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a class="toplogo" href="index.html">SweetSuccess UF</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="produkter.html">Produkter</a></li>
+                <li><a href="om.html">Om oss</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box rubric">
+        <h1>TJÄNA PENGAR TILL KLASSEN</h1>
+        <!-- skriv här -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo at purus sed sodales.<br> Donec ut quam eu sapien condimentum condimentum.
+        </p>
+        <a href="contact.html" class="hero-btn">Beställ Nu</a>
+    </div>
+
+</section>
+<!------ Course ------->
+
+<section class="course">
+    <h1>Hur Funkar det?</h1>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Beställ katalog</h3>
+            <!-- skriv här -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Pallentesque aliquet turpis nulla, eleifend faucibus est 
+            sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus
+            Donec sit.</p>
+        </div>
+        <div class="course-col">
+            <h3>Börja sälj</h3>
+            <!-- skriv här -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Pallentesque aliquet turpis nulla, eleifend faucibus est 
+            sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus
+            Donec sit.</p>
+        </div>
+        <div class="course-col">
+            <h3>Tjäna pengar</h3>
+            <!-- skriv här -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Pallentesque aliquet turpis nulla, eleifend faucibus est 
+            sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus
+            Donec sit.</p>
+        </div>
+    </div>
+</section>
+
+<!----- Facilities ----->
+
+<section class="facilities">
+    <h1>Vad Tjänar Ni?</h1>
+    <div class="sliders">
+        <div class="vinst">
+            <label>Sälj för</label>
+            <input type="range" min="0" max="100000" value="18750" oninput="showValue(1)" id="rangeV"><p id="rangeValueV">18750 kr</p>
+        </div>
+        <div class="säljare">
+            <label>och Tjäna</label>
+            <input type="range" min="0" max="100000" value="10875" oninput="showValue(2)" id="rangeS"><p id="rangeValueS">10875 kr</p>
+        </div>
+        <a href="kontakt.html" class="hero-btn invert">Kom Igång Nu</a>
+    </div>
+</section>
+
+<!----- Testimonials ----->
+
+<section class="testimonials">
+    <h1>Vad Säger Våra Kunder?</h1>
+
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="eduford_img/user1.jpg">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pallentesque aliquet turpis nulla, eleifend 
+                faucibus est sollicitudin ut. Maecenas ut venenatis ex, 
+                et dapibus purus</p>
+                <h3>Christine Berkley</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="eduford_img/user2.jpg">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pallentesque aliquet turpis nulla, eleifend 
+                faucibus est sollicitudin ut. Maecenas ut venenatis ex, 
+                et dapibus purus</p>
+                <h3>David Byer</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----- Footer ----->
+
+<section class="footer">
+    <a class="bottomlogo" href="index.html">SweetSuccess UF</a>
+    <!-- skriv här -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Pallentesque aliquet turpis nulla, eleifend faucibus 
+    est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p class="copyright">Copyright Ⓒ 2023</p>
+</section>
+
+
+
+
+
+
+<!----- JavaScript for Toggle Menu ----->
+<script src="main.js"></script>
+
+</body>
+</html>
